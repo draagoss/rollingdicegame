@@ -1,0 +1,94 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #f79328;
+}
+
+p {
+  font-size: 2rem;
+  color: #f79328;
+  font-family: "Noto Serif Ottoman Siyaq", serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.playButton {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f79328;
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem #999;
+}
+
+.button:hover {
+  background-color: #b46c20;
+}
+
+.button:active {
+  background-color: #b46c20;
+  box-shadow: 0 0.25rem #666;
+  transform: translateY(4px);
+}
+
+.score1,
+.score2 {
+  font-size: 1rem;
+  margin-top: 0;
+  color: white;
+}
+
+.scoreBoard {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+
+/* Media Query */
+
+@media (min-width: 319px) and (max-width: 999px) {
+
+    img {
+      width: 50%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+}
