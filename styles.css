@@ -1,3 +1,6 @@
+body {
+  cursor: default;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -58,6 +61,7 @@ footer {
 
 .button:hover {
   background-color: #b46c20;
+  cursor: pointer; !important
 }
 
 .button:active {
